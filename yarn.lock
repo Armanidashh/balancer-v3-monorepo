@@ -738,6 +738,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fastify/busboy@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "@fastify/busboy@npm:2.1.1"
+  checksum: d4fe0b8632216b126ff9f23a31d1e364aed870a26e55896cd2504fa13a6631f3f12b8ebb914f917b42493e896103af5613a3ad091888ddc62267ca43be7561ee
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.1.3":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -2408,15 +2415,6 @@ __metadata:
   version: 1.0.3
   resolution: "buffer-xor@npm:1.0.3"
   checksum: 057a5740571719edffcb209fbc5842150624b5a3d1ee427f569a85dc5785643e92870fe2506d7812b9125ce8be64e5a295450ae215a678657a738f06044a6adf
-  languageName: node
-  linkType: hard
-
-"busboy@npm:^1.6.0":
-  version: 1.6.0
-  resolution: "busboy@npm:1.6.0"
-  dependencies:
-    streamsearch: "npm:^1.1.0"
-  checksum: 4f9b97d97465ab8d7da3f9ee34129e4e92e473451547f3960224f209249b2546006c0bc66842932c0646c98247facf7f3341a20966114fadd234434e319411ad
   languageName: node
   linkType: hard
 
@@ -7493,13 +7491,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"streamsearch@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "streamsearch@npm:1.1.0"
-  checksum: 8d7c4b5046cf7ff528421d6e2ee0d8335da82a34edca4c58e2022390f4f73be1c83deeb14010bf939bb71e7990bd06367ca0382b3c6df1b932ecb1b98bb50e22
-  languageName: node
-  linkType: hard
-
 "string-format@npm:^2.0.0":
   version: 2.0.0
   resolution: "string-format@npm:2.0.0"
@@ -8119,11 +8110,11 @@ __metadata:
   linkType: hard
 
 "undici@npm:^5.14.0":
-  version: 5.22.0
-  resolution: "undici@npm:5.22.0"
+  version: 5.28.5
+  resolution: "undici@npm:5.28.5"
   dependencies:
-    busboy: "npm:^1.6.0"
-  checksum: c70a76499323a23e8e131e33af1e6de4e1e0d3e483ca434f02cff434b14455dcc76daa68510d401fd8c86a31f9c96fe99f6c33b688dd23c9b3319e676487d393
+    "@fastify/busboy": "npm:^2.0.0"
+  checksum: e85db458f0b1c0365707c5c0387b87825bc1fa8433059cd5df23cc24f19160521868fd411c536e0adab2876ed04803e11b3c2dcecae6537ef19b272698573b5c
   languageName: node
   linkType: hard
 
